@@ -6,9 +6,13 @@ body {
 	margin:0; padding:0;
 	border:20px solid white;
 }
+
+/*correction-3*/
 img {
-	max-width: 100%;
+	width: 100%;
+    margin: auto;
 }
+
 .container {
 	box-sizing: border-box;
 	width: 1200px;
