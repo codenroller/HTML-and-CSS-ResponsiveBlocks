@@ -89,8 +89,8 @@ h2 {
 }
 
 @media screen and (max-width:768px) {
-	body { border :none;
-
+	body { 
+        border :none;
 	}
 
 	.container {
@@ -112,16 +112,21 @@ h2 {
 	.resto {
 		min-height: 250px;
 	}
+
 	h2 {
 		margin: 0 0 1em;
 	}
 
 }
 @media screen and (max-width:640px) {
-	body { border :none;}
-	.container {
-	width: 100%;
+	body { 
+        border :none;
 	}
+
+	.container {
+	    width: 100%;
+	}
+
 	figure, figure.float-droite, .content {
 		float:none;
 		width: 100%
@@ -130,6 +135,7 @@ h2 {
 	.resto {
 		min-height: 570px;
 	}
+
 	h2 {
 		margin:0 0 0.5em;
 	}
